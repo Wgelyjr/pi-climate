@@ -1,6 +1,8 @@
 ﻿# pi-climate
 A project bundle containing the necessary files and instructions to equip a Raspberry Pi Pico to be a humidity, CO2, and temperature sensor.
 
+Case was commissioned by Manos Liolios, aka /u/cgmanuil and https://www.artstation.com/manosl - great modeler, bring him your ideas!
+
 Parts List:
  - Pi Pico W (NOT H)
  - Adafruit SCD-30
@@ -18,10 +20,11 @@ Other things to consider:
 Buy the things
 
 Print the case (or have a friend do it (I’ll be your friend))
+Model is also available via: https://www.printables.com/model/440658-pi-pico-w-scd-30-case
 
 Get ready to do microcontroller stuff (we’re gonna test everything pre-solder)
 
-# SOFTWARE:
+### SOFTWARE:
 
 Plug in the pico, it should show up as a storage device called RPI-PICO or something.
 
@@ -42,7 +45,7 @@ Now it’s time for hardware.
 
 
 
-# HARDWARE:
+### HARDWARE:
 
 Cut the connectors and strip the wires (preserving as much length as possible) on a fan and a stemma qt cable – not the end that plugs into the sensor.
 
