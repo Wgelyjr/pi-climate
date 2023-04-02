@@ -54,7 +54,7 @@ Do a test fit for everything. See how the fan fits into the case (it should have
 twist together matching cable colors (red and black) on the fan and stemma cables.
 
 solder everything together – here’s a nice pinout guide: https://learn.adafruit.com/adafruit-scd30/python-circuitpython
-though I used pins 3 & 4 for SDA and SCL instead of 1 & 2. If you do 1 & 2, make sure to change the code to reflect that.
+though I used pins 3 & 4 for SDA and SCL instead of 1 & 2. If you do 1 & 2, make sure to change the code to reflect that. Red goes to 3v3 and black goes to GND.
 
 Superglue the fan in, put the pico in, plug in the sensor, and put it in the base of the case. The boards should be fine without any kind of adhesive, but you could melt a post with a soldering iron to keep them from rattling if you want. Put the two halves together, then plug it in and test – your influxdb should get sent data nearly immediately after being plugged in. If it doesn’t work, debug with the screen command.
 
